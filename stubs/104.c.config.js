@@ -712,6 +712,9 @@ module.exports = {
     transitionDuration: ['responsive'],
     transitionDelay: ['responsive'],
     animation: ['responsive'],
+
+    // 104 c guideline
+    cColor: ['responsive'],
   },
   corePlugins: {
     accessibility: false,
