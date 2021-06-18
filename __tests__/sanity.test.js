@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import postcss from 'postcss'
 import tailwind from '../src/index'
-import config from '../stubs/defaultConfig.stub.js'
+import config from '../stubs/104.c.config.js'
 
 it('generates the right CSS', () => {
   const inputPath = path.resolve(`${__dirname}/fixtures/tailwind-input.css`)

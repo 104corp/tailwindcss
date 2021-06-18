@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import postcss from 'postcss'
 import tailwind from '../src/index'
-import defaultConfig from '../stubs/defaultConfig.stub.js'
+import defaultConfig from '../stubs/104.c.config.js'
 
 function suppressConsoleLogs(cb, type = 'warn') {
   return () => {

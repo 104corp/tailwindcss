@@ -11,7 +11,7 @@ import formatCSS from './lib/formatCSS'
 import resolveConfig from './util/resolveConfig'
 import getAllConfigs from './util/getAllConfigs'
 import { defaultConfigFile } from './constants'
-import defaultConfig from '../stubs/defaultConfig.stub.js'
+import defaultConfig from '../stubs/104.c.config.js'
 
 function resolveConfigPath(filePath) {
   // require('tailwindcss')({ theme: ..., variants: ... })
