@@ -15,7 +15,7 @@ module.exports = {
   important: false,
   separator: ':',
   presets: [],
-  theme: theme,
+  theme,
   variants,
   corePlugins,
   plugins: [],
