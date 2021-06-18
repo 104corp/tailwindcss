@@ -111,3 +111,6 @@ export { default as whitespace } from './whitespace'
 export { default as width } from './width'
 export { default as wordBreak } from './wordBreak'
 export { default as zIndex } from './zIndex'
+
+// 104 c guideline
+export { default as cColor } from './guideline/cColor'

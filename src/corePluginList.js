@@ -112,4 +112,7 @@ export const corePluginList = [
   'transitionDuration',
   'transitionDelay',
   'animation',
+
+  // 104 c guideline
+  'cColor',
 ]
