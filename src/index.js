@@ -10,10 +10,16 @@ import processTailwindFeatures from './processTailwindFeatures'
 import formatCSS from './lib/formatCSS'
 import resolveConfig from './util/resolveConfig'
 import getAllConfigs from './util/getAllConfigs'
-import { defaultConfigFile } from './constants'
-import defaultConfig from '../stubs/104.c.config.js'
+import { defaultConfigFile, defaultConfigStubFileForB } from './constants'
+import defaultConfig from '../stubs/104.c.config'
 
 function resolveConfigPath(filePath) {
+  // require('tailwindcss')({ type: ... })
+  if (_.isObject(filePath) && _.has(filePath, 'type') && _.isString(filePath.type)) {
+    if (filePath.type === 'b') return path.resolve(defaultConfigStubFileForB)
+    else return path.resolve(defaultConfigFile)
+  }
+
   // require('tailwindcss')({ theme: ..., variants: ... })
   if (_.isObject(filePath) && !_.has(filePath, 'config') && !_.isEmpty(filePath)) {
     return undefined
