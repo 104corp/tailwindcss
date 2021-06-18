@@ -1,6 +1,6 @@
 import postcss from 'postcss'
 import resolveConfig from '../src/util/resolveConfig'
-import defaultConfig from '../stubs/defaultConfig.stub.js'
+import defaultConfig from '../stubs/104.c.config.js'
 import tailwind from '../src/index'
 
 function run(input, config = {}) {

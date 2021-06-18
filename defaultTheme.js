@@ -1,4 +1,4 @@
 const cloneDeep = require('lodash/cloneDeep')
-const defaultConfig = require('./stubs/defaultConfig.stub.js')
+const defaultConfig = require('./stubs/104.c.config.js')
 
 module.exports = cloneDeep(defaultConfig.theme)

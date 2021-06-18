@@ -1,5 +1,5 @@
 import config from '../defaultConfig.js'
-import configStub from '../stubs/defaultConfig.stub.js'
+import configStub from '../stubs/104.c.config.js'
 
 test('the default config matches the stub', () => {
   expect(config).toEqual(configStub)

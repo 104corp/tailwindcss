@@ -1,4 +1,4 @@
-import defaultConfig from '../../stubs/defaultConfig.stub.js'
+import defaultConfig from '../../stubs/104.c.config.js'
 import { flagEnabled } from '../featureFlags'
 import uniformColorPalette from '../flagged/uniformColorPalette.js'
 import extendedSpacingScale from '../flagged/extendedSpacingScale.js'
