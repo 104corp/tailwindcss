@@ -1,5 +1,3 @@
-const { cLoading } = require("../../../src/plugins");
-
 module.exports = {
   accessibility: false,
   appearance: false,
