@@ -30,6 +30,7 @@
     "lib/*",
     "scripts/*.js",
     "stubs/*.stub.js",
+    "stubs/section/*",
     "*.css",
     "*.js"
   ],

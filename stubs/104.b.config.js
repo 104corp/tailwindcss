@@ -1,6 +1,6 @@
-const theme = require('./section/c/theme')
-const variants = require('./section/c/variants')
-const corePlugins = require('./section/c/corePlugins')
+const theme = require('./section/b/theme')
+const variants = require('./section/b/variants')
+const corePlugins = require('./section/b/corePlugins')
 
 module.exports = {
   future: {
