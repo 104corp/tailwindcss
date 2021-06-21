@@ -54,5 +54,6 @@ module.exports = {
   cButton: false,
   cTooltip: false,
   cTag: false,
-  cLoading: false
+  cLoading: false,
+  cDialog: false
 }

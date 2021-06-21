@@ -117,5 +117,6 @@ module.exports = {
   cButton: ['responsive'],
   cTooltip: ['responsive'],
   cTag: ['responsive'],
-  cLoading: []
+  cLoading: [],
+  cDialog: ['responsive']
 }
