@@ -117,5 +117,6 @@ export const corePluginList = [
   'cColor',
   'cButton',
   'cTooltip',
-  'cTag'
+  'cTag',
+  'cLoading'
 ]

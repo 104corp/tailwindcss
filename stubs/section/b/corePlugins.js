@@ -1,3 +1,5 @@
+const { cLoading } = require("../../../src/plugins");
+
 module.exports = {
   accessibility: false,
   appearance: false,
@@ -51,5 +53,6 @@ module.exports = {
   cColor: false,
   cButton: false,
   cTooltip: false,
-  cTag: false
+  cTag: false,
+  cLoading: false
 }

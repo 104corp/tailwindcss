@@ -116,5 +116,6 @@ module.exports = {
   cColor: ['responsive'],
   cButton: ['responsive'],
   cTooltip: ['responsive'],
-  cTag: ['responsive']
+  cTag: ['responsive'],
+  cLoading: []
 }
