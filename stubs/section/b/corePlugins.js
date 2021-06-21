@@ -1,3 +1,5 @@
+const { cLoading } = require("../../../src/plugins");
+
 module.exports = {
   accessibility: false,
   appearance: false,
@@ -49,5 +51,9 @@ module.exports = {
 
   // 禁用 c guideline 相關
   cColor: false,
+  cButton: false,
+  cTooltip: false,
+  cTag: false,
+  cLoading: false,
   cDialog: false
 }
