@@ -48,5 +48,6 @@ module.exports = {
   translate: false,
 
   // 禁用 c guideline 相關
-  cColor: false
+  cColor: false,
+  cDialog: false
 }
