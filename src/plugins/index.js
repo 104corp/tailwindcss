@@ -115,3 +115,4 @@ export { default as zIndex } from './zIndex'
 // 104 c guideline
 export { default as cColor } from './guideline/cColor'
 export { default as cButton } from './guideline/cButton'
+export { default as cTooltip } from './guideline/cTooltip'
