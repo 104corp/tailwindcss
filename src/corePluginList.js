@@ -115,4 +115,5 @@ export const corePluginList = [
 
   // 104 c guideline
   'cColor',
+  'cTooltip'
 ]
