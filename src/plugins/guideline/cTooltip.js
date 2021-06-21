@@ -2,7 +2,7 @@ export default function() {
   return function({ addComponents, variants }) {
     addComponents(
       {
-        '.tooltips': {
+        '.tooltip': {
           'position': 'relative',
           'display': 'inline-block',
           'padding': '6px 12px',
@@ -18,7 +18,7 @@ export default function() {
           'border-radius': '4px'
         },
       
-        '.tooltips-bl, .tooltips-bm, .tooltips-br, .tooltips-lt, .tooltips-lm, .tooltips-lb, .tooltips-rt, .tooltips-rm, .tooltips-rb, .tooltips-tl, .tooltips-tm, .tooltips-tr': {
+        '.tooltip-bl, .tooltip-bm, .tooltip-br, .tooltip-lt, .tooltip-lm, .tooltip-lb, .tooltip-rt, .tooltip-rm, .tooltip-rb, .tooltip-tl, .tooltip-tm, .tooltip-tr': {
           '&::after': {
             'position': 'absolute',
             'top': 'auto',
@@ -35,64 +35,64 @@ export default function() {
           }
         },
       
-        '.tooltips-bl, .tooltips-bm, .tooltips-br': {
+        '.tooltip-bl, .tooltip-bm, .tooltip-br': {
           '&::after': {
             'bottom': '-8px'
           }
         },
       
-        '.tooltips-tl, .tooltips-tm, .tooltips-tr': {
+        '.tooltip-tl, .tooltip-tm, .tooltip-tr': {
           '&::after': {
             'top': '-8px',
             'transform': 'rotate(-180deg)'
           }
         },
       
-        '.tooltips-tl, .tooltips-bl': {
+        '.tooltip-tl, .tooltip-bl': {
           '&::after': {
             'left': '4px'
           }
         },
       
-        '.tooltips-tm, .tooltips-bm': {
+        '.tooltip-tm, .tooltip-bm': {
           '&::after': {
             'right': `calc(50% - 6px)`
           }
         },
       
-        '.tooltips-tr, .tooltips-br': {
+        '.tooltip-tr, .tooltip-br': {
           '&::after': {
             'right': '4px'
           }
         },
       
-        '.tooltips-lt, .tooltips-lm, .tooltips-lb': {
+        '.tooltip-lt, .tooltip-lm, .tooltip-lb': {
           '&::after': {
             'left': '-10px',
             'transform': 'rotate(90deg)'
           }
         },
       
-        '.tooltips-rt, .tooltips-rm, .tooltips-rb': {
+        '.tooltip-rt, .tooltip-rm, .tooltip-rb': {
           '&::after': {
             'right': '-10px',
             'transform': 'rotate(-90deg)'
           }
         },
       
-        '.tooltips-rt, .tooltips-lt': {
+        '.tooltip-rt, .tooltip-lt': {
           '&::after': {
             'top': '6px'
           }
         },
       
-        '.tooltips-rm, .tooltips-lm': {
+        '.tooltip-rm, .tooltip-lm': {
           '&::after': {
             'top': 'calc(50% - 4px)'
           }
         },
       
-        '.tooltips-rb, .tooltips-lb': {
+        '.tooltip-rb, .tooltip-lb': {
           '&::after': {
             'bottom': '6px'
           }
