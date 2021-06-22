@@ -23,7 +23,7 @@ export default function() {
           'box-shadow': '0 0 8px 0 #7e7e7e',
         },
       },
-      variants('cDialog')
+      variants('dialog')
     )
   }
 }

@@ -111,4 +111,12 @@ module.exports = {
   transitionDuration: ['responsive'],
   transitionDelay: ['responsive'],
   animation: ['responsive'],
+
+  // 104 共用
+  color: ['responsive'],
+  tooltip: ['responsive'],
+  tag: ['responsive'],
+  dialog: ['responsive'],
+
+  // 104 b guideline
 }

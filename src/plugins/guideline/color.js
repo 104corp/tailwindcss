@@ -30,7 +30,7 @@ export default function() {
           'background-image': 'linear-gradient(to top left, #ffc31b, #ff9100)',
         },
       },
-      variants('cColor')
+      variants('color')
     )
   }
 }
