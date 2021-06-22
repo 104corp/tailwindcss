@@ -119,4 +119,5 @@ module.exports = {
   dialog: ['responsive'],
 
   // 104 b guideline
+  bLoading: [],
 }
