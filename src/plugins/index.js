@@ -112,10 +112,12 @@ export { default as width } from './width'
 export { default as wordBreak } from './wordBreak'
 export { default as zIndex } from './zIndex'
 
-// 104 c guideline
+// 104 共用
 export { default as color } from './guideline/color'
+export { default as tooltip } from './guideline/tooltip'
+
+// 104 c guideline
 export { default as cButton } from './guideline/cButton'
-export { default as cTooltip } from './guideline/cTooltip'
 export { default as cTag } from './guideline/cTag'
 export { default as cLoading } from './guideline/cLoading'
 export { default as cDialog } from './guideline/cDialog'

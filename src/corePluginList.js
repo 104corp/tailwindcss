@@ -115,10 +115,10 @@ export const corePluginList = [
 
   // 104 共用
   'color',
+  'tooltip',
 
   // 104 c guideline
   'cButton',
-  'cTooltip',
   'cTag',
   'cLoading',
   'cDialog',

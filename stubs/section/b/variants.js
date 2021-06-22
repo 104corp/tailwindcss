@@ -113,5 +113,6 @@ module.exports = {
   animation: ['responsive'],
 
   // 104 共用
-  color: ['responsive']
+  color: ['responsive'],
+  tooltip: ['responsive'],
 }
