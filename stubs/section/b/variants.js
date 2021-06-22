@@ -117,4 +117,6 @@ module.exports = {
   tooltip: ['responsive'],
   tag: ['responsive'],
   dialog: ['responsive'],
+
+  // 104 b guideline
 }
