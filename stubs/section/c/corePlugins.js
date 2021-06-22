@@ -45,7 +45,8 @@ module.exports = {
   transitionDuration: false,
   transitionProperty: false,
   transitionTimingFunction: false,
-  translate: false
+  translate: false,
 
   // 禁用 b guideline 相關
+  bButton: false
 }
