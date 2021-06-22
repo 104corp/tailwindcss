@@ -117,9 +117,9 @@ export const corePluginList = [
   'color',
   'tooltip',
   'tag',
+  'dialog',
 
   // 104 c guideline
   'cButton',
   'cLoading',
-  'cDialog',
 ]

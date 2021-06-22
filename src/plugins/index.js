@@ -116,8 +116,8 @@ export { default as zIndex } from './zIndex'
 export { default as color } from './guideline/color'
 export { default as tooltip } from './guideline/tooltip'
 export { default as tag } from './guideline/tag'
+export { default as dialog } from './guideline/dialog'
 
 // 104 c guideline
 export { default as cButton } from './guideline/cButton'
 export { default as cLoading } from './guideline/cLoading'
-export { default as cDialog } from './guideline/cDialog'

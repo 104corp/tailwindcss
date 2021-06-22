@@ -116,4 +116,5 @@ module.exports = {
   color: ['responsive'],
   tooltip: ['responsive'],
   tag: ['responsive'],
+  dialog: ['responsive'],
 }

@@ -116,9 +116,9 @@ module.exports = {
   color: ['responsive'],
   tooltip: ['responsive'],
   tag: ['responsive'],
+  dialog: ['responsive'],
 
   // 104 c guideline
   cButton: ['responsive'],
   cLoading: [],
-  cDialog: ['responsive']
 }
