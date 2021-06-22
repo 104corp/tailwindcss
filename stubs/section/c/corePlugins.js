@@ -48,5 +48,6 @@ module.exports = {
   translate: false,
 
   // 禁用 b guideline 相關
-  bButton: false
+  bButton: false,
+  bLoading: false,
 }
