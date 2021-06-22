@@ -115,10 +115,10 @@ module.exports = {
   // 104 共用
   color: ['responsive'],
   tooltip: ['responsive'],
+  tag: ['responsive'],
 
   // 104 c guideline
   cButton: ['responsive'],
-  cTag: ['responsive'],
   cLoading: [],
   cDialog: ['responsive']
 }

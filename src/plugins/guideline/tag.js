@@ -25,7 +25,7 @@ export default function() {
           '@apply pointer-events-none': {},
         },
       },
-      variants('cTag')
+      variants('tag')
     )
   }
 }
