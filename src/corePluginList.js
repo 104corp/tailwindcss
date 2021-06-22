@@ -124,5 +124,6 @@ export const corePluginList = [
   'cLoading',
 
   // 104 b guideline
+  'bButton',
   'bLoading',
 ]

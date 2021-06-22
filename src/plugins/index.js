@@ -123,4 +123,5 @@ export { default as cButton } from './guideline/cButton'
 export { default as cLoading } from './guideline/cLoading'
 
 // 104 b guideline
+export { default as bButton } from './guideline/bButton'
 export { default as bLoading } from './guideline/bLoading'
