@@ -67,10 +67,10 @@ export default function() {
         },
     
         '.btn-fourth': {
-          '@apply text-14 text-blue-200': {},
+          '@apply text-14 text-blue-400': {},
     
           '&:hover': {
-            '@apply text-blue-100': {}
+            '@apply text-blue-300': {}
           },
     
           '&:visited': {
