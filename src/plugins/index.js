@@ -113,7 +113,7 @@ export { default as wordBreak } from './wordBreak'
 export { default as zIndex } from './zIndex'
 
 // 104 c guideline
-export { default as cColor } from './guideline/cColor'
+export { default as color } from './guideline/color'
 export { default as cButton } from './guideline/cButton'
 export { default as cTooltip } from './guideline/cTooltip'
 export { default as cTag } from './guideline/cTag'

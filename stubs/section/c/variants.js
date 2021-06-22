@@ -112,8 +112,10 @@ module.exports = {
   transitionDelay: ['responsive'],
   animation: ['responsive'],
 
+  // 104 共用
+  color: ['responsive'],
+
   // 104 c guideline
-  cColor: ['responsive'],
   cButton: ['responsive'],
   cTooltip: ['responsive'],
   cTag: ['responsive'],

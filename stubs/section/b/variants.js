@@ -111,4 +111,7 @@ module.exports = {
   transitionDuration: ['responsive'],
   transitionDelay: ['responsive'],
   animation: ['responsive'],
+
+  // 104 共用
+  color: ['responsive']
 }
