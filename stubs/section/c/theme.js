@@ -1,6 +1,6 @@
 module.exports = {
   screens: {
-    sm: { min: '360px' },
+    sm: { min: '100%' },
     md: { min: '1024px' },
     lg: { min: '1366px' },
     xl: { min: '1680px' }
