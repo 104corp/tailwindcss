@@ -111,3 +111,17 @@ export { default as whitespace } from './whitespace'
 export { default as width } from './width'
 export { default as wordBreak } from './wordBreak'
 export { default as zIndex } from './zIndex'
+
+// 104 共用
+export { default as color } from './guideline/color'
+export { default as tooltip } from './guideline/tooltip'
+export { default as tag } from './guideline/tag'
+export { default as dialog } from './guideline/dialog'
+
+// 104 c guideline
+export { default as cButton } from './guideline/cButton'
+export { default as cLoading } from './guideline/cLoading'
+
+// 104 b guideline
+export { default as bButton } from './guideline/bButton'
+export { default as bLoading } from './guideline/bLoading'

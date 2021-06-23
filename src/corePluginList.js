@@ -112,4 +112,18 @@ export const corePluginList = [
   'transitionDuration',
   'transitionDelay',
   'animation',
+
+  // 104 共用
+  'color',
+  'tooltip',
+  'tag',
+  'dialog',
+
+  // 104 c guideline
+  'cButton',
+  'cLoading',
+
+  // 104 b guideline
+  'bButton',
+  'bLoading',
 ]
