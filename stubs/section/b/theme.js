@@ -49,7 +49,7 @@ module.exports = {
   },
   spacing: () => {
     const multipleFour = {}
-    for (let i = 2; i <= 10; i++) {
+    for (let i = 2; i <= 120; i++) {
       multipleFour[i * 4] = i * 4 + 'px'
     }
     return Object.assign({}, {
