@@ -1,6 +1,6 @@
 module.exports = {
   screens: {
-    sm: { min: '360px' },
+    sm: { min: '100%' },
     md: { min: '1024px' },
     lg: { min: '1366px' },
     xl: { min: '1680px' }
@@ -21,7 +21,8 @@ module.exports = {
       600: '#292929'
     },
     red: {
-      100: '#EA475B'
+      100: '#FFE9EC',
+      200: '#EA475B'
     },
     orange: {
       100: '#FFEEDF',
@@ -50,7 +51,7 @@ module.exports = {
   },
   spacing: () => {
     const multipleFour = {}
-    for (let i = 2; i <= 10; i++) {
+    for (let i = 2; i <= 120; i++) {
       multipleFour[i * 4] = i * 4 + 'px'
     }
     return Object.assign({}, {

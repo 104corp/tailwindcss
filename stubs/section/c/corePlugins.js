@@ -5,7 +5,6 @@ module.exports = {
   backgroundImage: false,
   backgroundOpacity: false,
   borderOpacity: false,
-  container: false,
   divideColor: false,
   divideOpacity: false,
   divideStyle: false,
