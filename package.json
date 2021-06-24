@@ -29,7 +29,7 @@
     "dist/*.css",
     "lib/*",
     "scripts/*.js",
-    "stubs/*.stub.js",
+    "stubs/*.js",
     "stubs/section/*",
     "*.css",
     "*.js"
