@@ -113,6 +113,7 @@ module.exports = {
   animation: ['responsive'],
 
   // 104 共用
+  icon: [],
   color: ['responsive'],
   tooltip: ['responsive'],
   tag: ['responsive'],

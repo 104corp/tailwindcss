@@ -32,7 +32,8 @@
     "stubs/*.js",
     "stubs/section/*",
     "*.css",
-    "*.js"
+    "*.js",
+    "common/*"
   ],
   "devDependencies": {
     "@babel/cli": "^7.0.0",
