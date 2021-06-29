@@ -114,6 +114,7 @@ export const corePluginList = [
   'animation',
 
   // 104 共用
+  'icon',
   'color',
   'tooltip',
   'tag',

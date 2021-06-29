@@ -113,6 +113,7 @@ export { default as wordBreak } from './wordBreak'
 export { default as zIndex } from './zIndex'
 
 // 104 共用
+export { default as icon } from './guideline/icon'
 export { default as color } from './guideline/color'
 export { default as tooltip } from './guideline/tooltip'
 export { default as tag } from './guideline/tag'
