@@ -122,7 +122,11 @@ export { default as dialog } from './guideline/dialog'
 // 104 c guideline
 export { default as cButton } from './guideline/cButton'
 export { default as cLoading } from './guideline/cLoading'
+export { default as cLayoutContainer } from './guideline/cLayoutContainer'
+
 
 // 104 b guideline
 export { default as bButton } from './guideline/bButton'
 export { default as bLoading } from './guideline/bLoading'
+export { default as bLayoutContainer } from './guideline/bLayoutContainer'
+

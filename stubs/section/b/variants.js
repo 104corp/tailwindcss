@@ -122,4 +122,5 @@ module.exports = {
   // 104 b guideline
   bButton: ['responsive'],
   bLoading: [],
+  bLayoutContainer: [],
 }
