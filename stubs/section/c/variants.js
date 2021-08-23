@@ -122,4 +122,5 @@ module.exports = {
   // 104 c guideline
   cButton: ['responsive'],
   cLoading: [],
+  cLayoutContainer: [],
 }
