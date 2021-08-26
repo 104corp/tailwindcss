@@ -123,8 +123,10 @@ export const corePluginList = [
   // 104 c guideline
   'cButton',
   'cLoading',
+  'cLayoutContainer',
 
   // 104 b guideline
   'bButton',
   'bLoading',
+  'bLayoutContainer'
 ]

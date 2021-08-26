@@ -50,7 +50,7 @@ export default function() {
     
           '&:hover': {
             'box-shadow': '0 0 4px 0 theme(\'colors.orange.300\')',
-            '@apply bg-white border-orange-300': {}
+            '@apply bg-white border-orange-300 text-orange-300': {}
           }
         },
     
