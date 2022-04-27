@@ -201,6 +201,7 @@ module.exports = {
     widest: '0.1em',
   },
   lineHeight: {
+    none: 1,
     18: '18px',
     20: '20px',
     22: '22px',
