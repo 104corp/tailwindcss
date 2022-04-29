@@ -46,16 +46,16 @@ export default function() {
         },
     
         '.btn-secondary': {
-          '@apply text-orange-400 bg-white border border-orange-400': {},
+          '@apply text-orange-400 border border-orange-400': {},
     
           '&:hover': {
             'box-shadow': '0 0 4px 0 theme(\'colors.orange.300\')',
-            '@apply bg-white border-orange-300 text-orange-300': {}
+            '@apply border-orange-300 text-orange-300': {}
           }
         },
     
         '.btn-secondary-disabled': {
-          '@apply text-gray-400 bg-white border border-gray-400': {}
+          '@apply text-gray-400 border border-gray-400': {}
         },
     
         '.btn-third': {
