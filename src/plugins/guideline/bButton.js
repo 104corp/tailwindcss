@@ -5,7 +5,7 @@ export default function() {
         '.btn': {
           '@apply inline-block font-700 rounded': {},
 
-          '&:focus': {
+          '&:focus:not(:focus-visible)': {
             outline: 'none',
           },
 
