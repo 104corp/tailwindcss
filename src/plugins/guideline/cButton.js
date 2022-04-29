@@ -47,8 +47,12 @@ export default function() {
     
         '.btn-secondary': {
           '@apply text-orange-400 border border-orange-400': {},
+
+          '&-gray':{
+            '@apply text-gray-500 border border-gray-500': {},
+          },
     
-          '&:hover': {
+          '&:hover, &-gray:hover': {
             'box-shadow': '0 0 4px 0 theme(\'colors.orange.300\')',
             '@apply border-orange-300 text-orange-300': {}
           }
