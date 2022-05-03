@@ -101,6 +101,7 @@ module.exports = {
   borderRadius: {
     none: '0',
     default: '4px',
+    '12': '12px',
     full: '50%'
   },
   borderWidth: {
@@ -202,6 +203,7 @@ module.exports = {
     widest: '0.1em',
   },
   lineHeight: {
+    none: 1,
     18: '18px',
     20: '20px',
     22: '22px',
@@ -343,6 +345,15 @@ module.exports = {
   zIndex: {
     auto: 'auto',
     '0': '0',
+    '1': '1',
+    '2': '2',
+    '3': '3',
+    '4': '4',
+    '5': '5',
+    '6': '6',
+    '7': '7',
+    '8': '8',
+    '9': '9',
     '10': '10',
     '20': '20',
     '30': '30',
