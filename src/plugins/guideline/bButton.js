@@ -5,7 +5,7 @@ export default function() {
         '.btn': {
           '@apply inline-block font-700 rounded': {},
 
-          '&:focus': {
+          '&:focus:not(:focus-visible)': {
             outline: 'none',
           },
 
@@ -46,16 +46,16 @@ export default function() {
         },
 
         '.btn-secondary': {
-          '@apply text-lake-200 bg-white border border-lake-200': {},
+          '@apply text-lake-200 border border-lake-200': {},
 
           '&:hover': {
             'box-shadow': "0 0 4px 0 theme('colors.lake.100')",
-            '@apply text-lake-100 bg-white border-lake-100': {},
+            '@apply text-lake-100 border-lake-100': {},
           },
         },
 
         '.btn-secondary-disabled': {
-          '@apply text-gray-400 bg-white border border-gray-400': {},
+          '@apply text-gray-400 border border-gray-400': {},
         },
 
         '.btn-third': {
