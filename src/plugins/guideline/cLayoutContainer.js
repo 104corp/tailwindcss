@@ -3,17 +3,17 @@ export default function() {
     addComponents(
       {
         '.layout-container': {
-          '@apply max-w-full': {},
-          '@screen md':{
-            'max-width':'960px'
+          'max-width': '100%',
+          '@screen md': {
+            'max-width': '960px',
           },
-          '@screen lg':{
-            'max-width':'1200px'
+          '@screen lg': {
+            'max-width': '1200px',
           },
-          '@screen xl':{
-            'max-width':'1320px'
+          '@screen xl': {
+            'max-width': '1320px',
           },
-        }
+        },
       },
       variants('cLayoutContainer')
     )

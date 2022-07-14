@@ -3,26 +3,35 @@ export default function() {
     addComponents(
       {
         '.tag': {
-          '@apply text-14': {},
           display: 'inline-flex',
           padding: '2px 8px',
           'max-width': '300px',
           'border-width': '1px',
           'border-radius': '12px',
+          'font-size': '14px',
+          'line-height': '20px',
         },
         '.tag-primary': {
-          '@apply text-lake-100 bg-white border-lake-100': {},
+          color: "theme('colors.lake.100')",
+          'background-color': "theme('colors.white')",
+          'border-color': "theme('colors.lake.100')",
         },
         '.tag-primary-disabled': {
-          '@apply text-gray-500 bg-gray-100 border-gray-100': {},
-          '@apply pointer-events-none': {},
+          color: "theme('colors.gray.500')",
+          'background-color': "theme('colors.gray.100')",
+          'border-color': "theme('colors.gray.100')",
+          'pointer-events': 'none',
         },
         '.tag-secondary': {
-          '@apply text-white bg-lake-100 border-lake-100': {},
+          color: "theme('colors.white')",
+          'background-color': "theme('colors.lake.100')",
+          'border-color': "theme('colors.lake.100')",
         },
         '.tag-secondary-disabled': {
-          '@apply text-white bg-gray-400 border-gray-400': {},
-          '@apply pointer-events-none': {},
+          color: "theme('colors.white')",
+          'background-color': "theme('colors.gray.400')",
+          'border-color': "theme('colors.gray.400')",
+          'pointer-events': 'none',
         },
       },
       variants('tag')

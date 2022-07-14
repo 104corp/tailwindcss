@@ -3,88 +3,114 @@ export default function() {
     addComponents(
       {
         '.btn': {
-          '@apply inline-block font-700 rounded': {},
-    
-          '&:focus:not(:focus-visible)': {
-            'outline': 'none'
-          },
-    
-          '&[class*=\'disabled\']': {
-            'cursor': 'default',
-            'pointer-events': 'none'
-          }
-        },
-    
-        '.btn-size-small': {
-          'padding': '5px 16px',
-          'min-width': '90px',
-          '@apply text-14': {}
-        },
-    
-        '.btn-size-middle': {
-          'padding': '5px 16px',
-          'min-width': '120px',
-          '@apply text-14': {}
-        },
-    
-        '.btn-size-large': {
-          'padding': '9px 16px',
-          'min-width': '154px',
-          '@apply text-18': {}
-        },
-    
-        '.btn-primary': {
-          '@apply text-white bg-orange-300 border border-orange-300':{},
-    
-          '&:hover': {
-            '@apply bg-orange-400 border-orange-400 shadow-none': {}
-          }
-        },
-    
-        '.btn-primary-disabled': {
-          '@apply text-white bg-gray-400 border border-gray-400': {}
-        },
-    
-        '.btn-secondary': {
-          '@apply text-orange-400 border border-orange-400': {},
+          display: 'inline-block',
+          'font-weight': '700',
+          'border-radius': '4px',
 
-          '&-gray':{
-            '@apply text-gray-500 border border-gray-500': {},
+          '&:focus:not(:focus-visible)': {
+            outline: 'none',
           },
-    
+
+          "&[class*='disabled']": {
+            cursor: 'default',
+            'pointer-events': 'none',
+          },
+        },
+
+        '.btn-size-small': {
+          padding: '5px 16px',
+          'min-width': '90px',
+          'font-size': '14px',
+          'line-height': '20px',
+        },
+
+        '.btn-size-middle': {
+          padding: '5px 16px',
+          'min-width': '120px',
+          'font-size': '14px',
+          'line-height': '20px',
+        },
+
+        '.btn-size-large': {
+          padding: '9px 16px',
+          'min-width': '154px',
+          'font-size': '18px',
+          'line-height': '24px',
+        },
+
+        '.btn-primary': {
+          color: '#ffffff',
+          'background-color': "theme('colors.orange.300')",
+          'border-width': '1px',
+          'border-color': "theme('colors.orange.300')",
+
+          '&:hover': {
+            'background-color': "theme('colors.orange.400')",
+            'border-color': "theme('colors.orange.400')",
+            'box-shadow': 'none',
+          },
+        },
+
+        '.btn-primary-disabled': {
+          color: "theme('colors.white')",
+          'background-color': "theme('colors.gray.400')",
+          'border-width': '1px',
+          'border-color': "theme('colors.gray.400')",
+        },
+
+        '.btn-secondary': {
+          color: "theme('colors.orange.400')",
+          'border-width': '1px',
+          'border-color': "theme('colors.orange.400')",
+
+          '&-gray': {
+            color: "theme('colors.gray.500')",
+            'border-width': '1px',
+            'border-color': "theme('colors.gray.500')",
+          },
+
           '&:hover, &-gray:hover': {
-            'box-shadow': '0 0 4px 0 theme(\'colors.orange.300\')',
-            '@apply border-orange-300 text-orange-300': {}
-          }
-        },
-    
-        '.btn-secondary-disabled': {
-          '@apply text-gray-400 border border-gray-400': {}
-        },
-    
-        '.btn-third': {
-          '@apply text-14 text-gray-500': {},
-    
-          '&:hover': {
-            '@apply text-orange-400': {}
-          }
-        },
-    
-        '.btn-fourth': {
-          '@apply text-14 text-blue-200': {},
-    
-          '&:hover': {
-            '@apply text-blue-100': {}
+            color: "theme('colors.orange.300')",
+            'border-color': "theme('colors.orange.300')",
+            'box-shadow': "0 0 4px 0 theme('colors.orange.300')",
           },
-    
-          '&:visited': {
-            '@apply text-purple-100': {}
-          }
         },
-    
+
+        '.btn-secondary-disabled': {
+          color: "theme('colors.gray.400')",
+          'border-width': '1px',
+          'border-color': "theme('colors.gray.400')",
+        },
+
+        '.btn-third': {
+          'font-size': '14px',
+          'line-height': '20px',
+          color: "theme('colors.gray.500')",
+
+          '&:hover': {
+            color: "theme('colors.orange.400')",
+          },
+        },
+
+        '.btn-fourth': {
+          'font-size': '14px',
+          'line-height': '20px',
+          color: "theme('colors.blue.200')",
+
+          '&:hover': {
+            color: "theme('colors.blue.100')",
+          },
+
+          '&:visited': {
+            color: "theme('colors.purple.100')",
+          },
+        },
+
         '.btn-third-disabled, .btn-fourth-disabled': {
-          '@apply text-14 text-gray-400': {}
-        }
+          'font-size': '14px',
+          'line-height': '20px',
+          color: "theme('colors.gray.400')",
+        },
       },
       variants('cButton')
     )
